@@ -223,7 +223,7 @@ so (LDLT)^-1 is A^-1, LT being the transpose of L and thus A is inversible and s
 
 
 exo 2 question 3:
-As we can see in the code, L[0][0] is the square root of A[0][0] so if A[0][0] is negative the cholesky method doesn't work
+As we can see in the code, L[0][0] is the square root of A[0][0] so if A[0][0] is negative the cholesky method doesn't work, also a matrix that is not non negative will not work for this reason
 
 exo 3
 as we can see both are very fast, but the normal cholesky is a bit faster, but the cholesky alternative takes a bit more time to create the LDLT matrices, and they are simpler to look at
