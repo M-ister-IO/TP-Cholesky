@@ -134,5 +134,7 @@ so (LDLT)^-1 is A^-1, LT being the transpose of L and thus A is inversible and s
 
 exo 2 question 3:
 As we can see in the code, L[0][0] is the square root of A[0][0] so if A[0][0] is negative the cholesky method doesn't work
-
+so A=[-1 2 3]
+     [ 2 1 2]
+     [ 3 2 1] doesn't work
 """
